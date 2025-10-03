@@ -47,12 +47,12 @@ set pagina=%pagina: =+%
 start https://www.google.com/search?q="%pagina%"
 goto inicio
 
-:videoFavorito 1
+:videoFavorito1
 echo Reproduciendo Video Musical Favorito 1...
 start https://www.youtube.com/watch?v=XYuBWQGf7a0&list=RDXYuBWQGf7a0&start_radio=1
 goto inicio
 
-:videoFavorito 2 
+:videoFavorito2 
 echo Reproduciendo Video Musical Favorito 2...
 start https://www.youtube.com/watch?v=khB6DUHpR4o&list=RDkhB6DUHpR4o&start_radio=1
 goto inicio
